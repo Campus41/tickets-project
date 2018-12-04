@@ -1,0 +1,6 @@
+.main {
+  position: relative;
+  height: 100%;
+  background-color: #c6c6d4; }
+
+/*# sourceMappingURL=style.scc.map */

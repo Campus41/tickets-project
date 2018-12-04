@@ -1,0 +1,398 @@
+body {
+  background-color: #e1e3e6; }
+
+.paragraph, .mark {
+  font-size: 14px; }
+
+.button {
+  font-size: 20px; }
+
+.time {
+  font-size: 32px; }
+
+.flights__list,
+.flights-direction__distance-from,
+.flights-direction__distance-to,
+.flights-direction__distance-from,
+.flights-direction__distance-to {
+  list-style-type: none;
+  padding: 0; }
+
+.flights {
+  display: flex;
+  border-radius: 5px;
+  font-family: sans-serif; }
+  .flights__list {
+    padding: 0px;
+    margin: 0px;
+    width: 25%;
+    border-right: 1px solid #93a0ab;
+    background-color: #ffffff; }
+  .flights__active-planes {
+    display: flex;
+    width: 75%;
+    background-color: #ffffff; }
+    .flights__active-planes .flights-active {
+      flex: 1 1 auto; }
+    .flights__active-planes .flights-action {
+      background-color: #edf5f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #93a0ab; }
+
+.flights__list-bags {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0 10px 0; }
+  .flights__list-bags .flights__baggage-carryon {
+    padding-right: 5px; }
+    .flights__list-bags .flights__baggage-carryon .fa-shopping-bag {
+      color: #93a0ab; }
+  .flights__list-bags .flights__baggage-bag {
+    padding-right: 5px; }
+    .flights__list-bags .flights__baggage-bag .fa-briefcase {
+      color: #FF0000; }
+
+.flights__left-tickets {
+  display: flex;
+  justify-content: center;
+  color: #FF0000; }
+  .flights__left-tickets .mark {
+    margin: 10px;
+    background-color: transparent;
+    color: #FF0000; }
+
+.flights__button-container--buy {
+  display: flex; }
+  .flights__button-container--buy .button {
+    background: #ff6d00;
+    border: none;
+    border-radius: 7px;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    color: #ffffff; }
+
+.flights__buy-reason {
+  display: flex;
+  justify-content: center;
+  color: #93a0ab; }
+  .flights__buy-reason .paragraph {
+    margin: 10px 0px 10px 0px; }
+
+.flights__select-avialiner {
+  display: flex;
+  justify-content: space-between; }
+  .flights__select-avialiner .flights__name-avialiner {
+    margin-left: 20px;
+    color: #239af5; }
+    .flights__select-avialiner .flights__name-avialiner .paragraph {
+      margin: 5px; }
+  .flights__select-avialiner .flights__cost-ticket {
+    margin-right: 20px;
+    color: #239af5; }
+    .flights__select-avialiner .flights__cost-ticket .paragraph {
+      margin: 5px; }
+
+.flights__show-more-companies {
+  display: flex;
+  color: #239af5;
+  padding: 10px; }
+  .flights__show-more-companies .paragraph {
+    margin: auto; }
+
+.flights-heading {
+  display: flex;
+  justify-content: space-between; }
+  .flights-heading__list-logo {
+    display: flex;
+    margin: 20px 0 0 5px; }
+    .flights-heading__list-logo .flights-heading__box-logo {
+      border: 1px solid #93a0ab;
+      border-radius: 3px;
+      margin: 0 0 0 15px; }
+      .flights-heading__list-logo .flights-heading__box-logo .flights-heading__wrap {
+        display: flex;
+        margin: 6px; }
+  .flights-heading__logo-btn {
+    display: flex;
+    margin: 0 20px 0 0;
+    align-items: center; }
+
+.flights-direction {
+  display: flex;
+  padding: 25px 0 25px 0; }
+  .flights-direction__distance-from {
+    margin: 0 0 0 20px; }
+    .flights-direction__distance-from .flights-direction__time-from {
+      display: flex; }
+      .flights-direction__distance-from .flights-direction__time-from .flights-direction__wrap {
+        display: flex;
+        align-items: center;
+        border: 1px solid #93a0ab;
+        border-radius: 50%;
+        margin: 7px 0 5px 0;
+        height: 18px;
+        width: 18px; }
+        .flights-direction__distance-from .flights-direction__time-from .flights-direction__wrap .image {
+          margin: 0 0 0 2px; }
+      .flights-direction__distance-from .flights-direction__time-from .time {
+        margin: 0 0 0 5px; }
+    .flights-direction__distance-from .flights-direction__city-from .paragraph {
+      color: #93a0ab;
+      margin: 5px 5px 5px 0px; }
+    .flights-direction__distance-from .flights-direction__data-from .paragraph {
+      color: #93a0ab;
+      margin: 5px 5px 5px 0px; }
+  .flights-direction__distance-fly {
+    width: 50%; }
+    .flights-direction__distance-fly .flights-direction__plane-logo {
+      display: flex;
+      justify-content: space-between; }
+      .flights-direction__distance-fly .flights-direction__plane-logo .paragraph {
+        color: #93a0ab;
+        margin: 5px 5px 5px 0px; }
+    .flights-direction__distance-fly .flights-direction__time-line {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      .flights-direction__distance-fly .flights-direction__time-line .flights-direction__time-line-circle {
+        width: 10px;
+        height: 10px;
+        border: 1px solid #93a0ab;
+        border-radius: 50%; }
+      .flights-direction__distance-fly .flights-direction__time-line .flights-direction__time-line-linear {
+        margin: 5px 0 0 0;
+        width: 90%;
+        height: 0px;
+        border: 1px solid #93a0ab; }
+    .flights-direction__distance-fly .flights-direction__city-name {
+      display: flex;
+      justify-content: space-between; }
+      .flights-direction__distance-fly .flights-direction__city-name .paragraph {
+        margin: 0px; }
+  .flights-direction__distance-to {
+    margin: 0 20px 0 0; }
+    .flights-direction__distance-to .time {
+      display: flex;
+      justify-content: flex-end;
+      margin: 0 0 0 5px; }
+    .flights-direction__distance-to .flights-direction__city-to .paragraph {
+      display: flex;
+      justify-content: flex-end;
+      color: #93a0ab;
+      margin: 5px 5px 5px 0px; }
+    .flights-direction__distance-to .flights-direction__data-to .paragraph {
+      display: flex;
+      justify-content: flex-end;
+      color: #93a0ab;
+      margin: 5px 5px 5px 0px; }
+
+@media all and (min-width: 1350px) {
+  .flights-direction__distance-fly {
+    width: 80%; }
+  .flights-direction__distance-fly-mobile {
+    display: none; }
+  .flights__list-bags .fa-shopping-bag, .flights__list-bags .fa-briefcase {
+    font-size: 28px; }
+  .flights-heading__box-logo {
+    width: 48px;
+    height: 48px; }
+    .flights-heading__box-logo .flights-heading__wrap .image {
+      height: 38px;
+      width: 38px; }
+  .flights-direction__distance-from {
+    width: 25%; }
+  .flights-direction__distance-to {
+    width: 25%; }
+  .flights-heading__next-btn {
+    margin: 0 15px 0 0;
+    display: flex;
+    align-items: center; }
+    .flights-heading__next-btn .image {
+      height: 28px;
+      width: 28px; }
+  .flights-action {
+    width: 3%;
+    border-radius: 0 10px 10px 0; }
+  .flights__list {
+    border-radius: 10px 0 0 10px; }
+  .flights__active-planes {
+    border-radius: 0 10px 10px 0; }
+
+  .paragraph, .mark {
+    font-size: 16px; }
+
+  .button {
+    font-size: 22px; }
+
+  .time {
+    font-size: 32px; } }
+@media only screen and (min-width: 720px) and (max-width: 1350px) {
+  .flights-direction__distance-fly-mobile {
+    display: none; }
+  .flights-direction__distance-from {
+    width: 25%; }
+  .flights-direction__distance-to {
+    width: 25%; }
+  .flights__list-bags .fa-shopping-bag, .flights__list-bags .fa-briefcase {
+    font-size: 24px; }
+  .flights-heading__box-logo {
+    width: 42px;
+    height: 42px; }
+    .flights-heading__box-logo .flights-heading__wrap .image {
+      height: 32px;
+      width: 32px; }
+  .flights-heading__next-btn {
+    margin: 0 15px 0 0;
+    display: flex;
+    align-items: center; }
+    .flights-heading__next-btn .image {
+      height: 24px;
+      width: 24px; }
+  .flights-action {
+    border-radius: 0 10px 10px 0;
+    width: 25px; }
+  .flights__list {
+    border-radius: 10px 0 0 10px; }
+  .flights__active-planes {
+    border-radius: 0 10px 10px 0; }
+
+  .paragraph, .mark {
+    font-size: 14px; }
+
+  .button {
+    font-size: 16px; }
+
+  .time {
+    font-size: 30px; } }
+@media all and (max-width: 720px) and (min-width: 360px) {
+  .flights-direction__distance-fly {
+    display: none; }
+
+  .flights {
+    display: flex;
+    flex-direction: column; }
+    .flights__list {
+      border: none;
+      padding-bottom: 20px;
+      border-bottom: 1px dotted #93a0ab; }
+    .flights .flights__list-bags .fa-shopping-bag, .flights .flights__list-bags .fa-briefcase {
+      font-size: 22px; }
+    .flights__list {
+      width: 100%; }
+    .flights__active-planes {
+      width: 100%; }
+    .flights__logo-btn {
+      margin-bottom: 0px; }
+    .flights .flights-direction__distance-from {
+      width: 40%; }
+    .flights .flights-direction__distance-to {
+      width: 40%; }
+
+  .flights-direction__distance-fly-mobile {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center; }
+    .flights-direction__distance-fly-mobile .fa-fighter-jet {
+      font-size: 32px; }
+
+  .flights-heading__box-logo {
+    width: 34px;
+    height: 34px; }
+    .flights-heading__box-logo .flights-heading__wrap .image {
+      height: 24px;
+      width: 24px; }
+
+  .flights-heading__next-btn {
+    margin: 0 15px 0 0;
+    display: flex;
+    align-items: center; }
+    .flights-heading__next-btn .image {
+      height: 20px;
+      width: 20px; }
+
+  .flights-action {
+    width: 25px;
+    border-radius: 0 0 10px 0; }
+  .flights__list {
+    border-radius: 10px 10px 0 0; }
+  .flights__active-planes {
+    border-radius: 0 0 10px 10px; }
+
+  .paragraph, .mark {
+    font-size: 14px; }
+
+  .button {
+    font-size: 14px; }
+
+  .time {
+    font-size: 30px; } }
+@media all and (max-width: 360px) {
+  .flights {
+    display: flex;
+    flex-direction: column; }
+    .flights__list {
+      border: none;
+      padding-bottom: 20px;
+      border-bottom: 1px dotted #93a0ab; }
+    .flights .flights__list-bags .fa-shopping-bag, .flights .flights__list-bags .fa-briefcase {
+      font-size: 20px; }
+    .flights__list {
+      width: 100%; }
+    .flights__active-planes {
+      width: 100%; }
+    .flights__logo-btn {
+      margin-bottom: 0px; }
+    .flights .flights-direction__distance-from {
+      width: 40%; }
+    .flights .flights-direction__distance-to {
+      width: 40%; }
+
+  .flights-direction__distance-fly {
+    display: none; }
+
+  .flights-direction__distance-fly-mobile {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center; }
+    .flights-direction__distance-fly-mobile .fa-fighter-jet {
+      font-size: 24px; }
+
+  .flights-heading__box-logo {
+    width: 30px;
+    height: 30px; }
+    .flights-heading__box-logo .flights-heading__wrap .image {
+      height: 20px;
+      width: 20px; }
+
+  .flights-action {
+    width: 25px;
+    border-radius: 0 0 10px 0; }
+  .flights__list {
+    border-radius: 10px 10px 0 0; }
+  .flights__active-planes {
+    border-radius: 0 0 10px 10px; }
+
+  .flights-heading__next-btn {
+    margin: 0 15px 0 0;
+    display: flex;
+    align-items: center; }
+    .flights-heading__next-btn .image {
+      height: 18px;
+      width: 18px; }
+
+  .paragraph, .mark {
+    font-size: 12px; }
+
+  .button {
+    font-size: 14px; }
+
+  .time {
+    font-size: 28px; } }
+
+/*# sourceMappingURL=style.css.map */
